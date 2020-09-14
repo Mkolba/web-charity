@@ -1,0 +1,120 @@
+.flex {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.centered {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.Banner--type {
+  width: calc(100% - 24px);
+  margin: 8px 0px 4px 0px;
+}
+
+.Image {
+  width: calc(100% - 24px);
+  margin-bottom: 12px;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Image .FileInput .Button {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.Image .Icon--picture_outline_28 {
+  margin-top: 1px;
+}
+
+.Unuploaded {
+  border: 1px dashed #3F8AE0;
+}
+
+.Description {
+  height: 64px;
+}
+
+.Description textarea {
+  height: 64px;
+  min-height: 36px;
+}
+
+.Image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Image .RemoveButton {
+  position: absolute;
+  padding: 8px;
+  right: 0;
+  top: 0;
+}
+
+.Image .RemoveButton .Button__content {
+  padding: 0
+}
+
+.dateInputWrapper {
+  padding-bottom: 30px;
+}
+
+.dateInput {
+  position: absolute;
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0
+}
+
+.dateInputWrapper .Chevron {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  height: 44px;
+  width: 44px;
+  padding-right: 12px;
+  color: #99a2ad;
+}
+
+.Post {
+  width: 100%;
+  height: 375px;
+}
+
+.Post__footer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Post__Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 12px 12px;
+  color: #99A2AD
+}
+
+.Post__Icon__Text {
+  padding-left: 4px;
+  color: #818C99
+}
+
+.Post .Snippet {
+  width: calc(100% - 24px);
+}
