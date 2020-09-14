@@ -1,5 +1,7 @@
 [<img width="134" src="https://vk.com/images/apps/mini_apps/vk_mini_apps_logo.svg">](https://vk.com/services)
 
+На реализацию регулярных сборов и части последней страницы времени не хватило :c
+
 # Create VK Mini App [![npm][npm]][npm-url] [![deps][deps]][deps-url]
 
 ## How to install
